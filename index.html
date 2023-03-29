@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitterclone</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <!--sidebarstarts-->
+    <div class="sidebar">
+        <i class="fab fa-twitter"></i>
+        <div class="sidebarOption active">
+            <span class="material-icons"> home </span>
+            <h2>Home</h2>
+        </div>
+        <div class="sidebarOption">
+            <span class="material-icons"> search</span>
+            <h2>Explore</h2>
+        </div>
+        <div class="sidebarOption">
+            <span class="material-icons">notifications</span>
+            <h2>Notifications</h2>
+        </div>
+        <div class="sidebarOption">
+            <span class="material-icons"> bookmark </span>
+            <h2>Bookmarks</h2>
+        </div>
+        <div class="sidebarOption">
+            <span class="material-icons"> email </span>
+            <h2>Messages</h2>
+        </div>
+        <div class="sidebarOption">
+            <span class="material-icons">format_list_bulleted_add</span>
+            <h2>Lists</h2>
+        </div>
+        <div class="sidebarOption">
+            <span class="material-icons"> person_2</span>
+            <h2>Profile</h2>
+        </div>
+        <div class="sidebarOption">
+            <span class="material-icons"> more_horiz</span>
+            <h2>More</h2>
+        </div>
+        <button class="sidebar_tweet">Tweet</button>
+        </div>
+
+        <!--sidebarends-->
+        <!--feedstarts-->
+        <div class="feed">
+
+        <div class="feed__header">
+            <h2>Home</h2>
+            <div class="buttons">
+                <div class="Foryou__button">For you </div>
+                <div class="Following__button">Following </div>
+            </div>
+        </div>
+        <!--tweetbox starts-->
+        <div class="tweetBox">
+            <form>
+                <div class="tweetbox__input">
+                    <img src="https://static.vecteezy.com/system/resources/previews/006/487/917/original/man-avatar-icon-free-vector.jpg" alt=""/>
+                    <input type="text" placeholder="what's happening?"/>
+                    <button class="tweetBox__tweetButton">Tweet</button>
+                </div>    
+            </form>
+        </div>
+        <!--tweeetbox ends-->
+
+        <!--post starts-->
+        <div class="post">
+        <div class="post__avatar">
+            <img src="https://static.vecteezy.com/system/resources/previews/006/487/917/original/man-avatar-icon-free-vector.jpg"/>
+        </div>
+           <div class="post__body">
+            <div class="post__header">
+                <div class="post__headerText">
+                    <h3>Muhammed Harif N
+                        <span class="post__headerSpecial">
+                            <span class="material-icons post__badge">verified</span>@arif786
+                        </span>
+                    </h3>
+                </div>
+                <div class="post__headerDescription">
+                    <p>My dream car. </p>
+
+            </div>
+           </div>
+           <img src="https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/0x0.jpg?format=jpg&crop=4560,2565,x790,y784,safe&width=1200" alt=""/>
+            <div class="post__footer">
+                <span class="material-icons">repeat</span>
+                <span class="material-icons">favorite_border</span>
+                <span class="material-icons">publish</span>
+            </div>
+        </div>
+        </div>
+        <!--postends-->
+
+         <!--post starts-->
+         <div class="post">
+            <div class="post__avatar">
+                <img src="https://pub-static.fotor.com/assets/projects/pages/d5bdd0513a0740a8a38752dbc32586d0/fotor-03d1a91a0cec4542927f53c87e0599f6.jpg"/>
+            </div>
+               <div class="post__body">
+                <div class="post__header">
+                    <div class="post__headerText">
+                        <h3>Muhsina
+                            <span class="post__headerSpecial">
+                                <span class="material-icons post__badge">verified</span>@muhsina
+                            </span>
+                        </h3>
+                    </div>
+                    <div class="post__headerDescription">
+                        <p>I am giong to visit this</p>
+    
+                </div>
+               </div>
+               <img src="https://media.istockphoto.com/id/1146517111/photo/taj-mahal-mausoleum-in-agra.jpg?s=612x612&w=0&k=20&c=vcIjhwUrNyjoKbGbAQ5sOcEzDUgOfCsm9ySmJ8gNeRk=" alt=""/>
+                <div class="post__footer">
+                    <span class="material-icons">repeat</span>
+                    <span class="material-icons">favorite_border</span>
+                    <span class="material-icons">publish</span>
+                </div>
+            </div>
+            </div>
+            <!--post ends-->
+        </div>
+        <!--feed ends-->
+
+<!--widgets starts-->
+<div class="widgets">
+    <div class="widgets__input">
+        <span class="material-icons widgets__searchIcon"></span>
+        <input type="text" placeholder="Search Twitter"/>
+    </div>
+
+    
+        <div class="widgets__Container">
+            <h2>what's happening?</h2>
+            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Sunsets don&#39;t get much better than this one over <a href="https://twitter.com/GrandTetonNPS?ref_src=twsrc%5Etfw">@GrandTetonNPS</a>. <a href="https://twitter.com/hashtag/nature?src=hash&amp;ref_src=twsrc%5Etfw">#nature</a> <a href="https://twitter.com/hashtag/sunset?src=hash&amp;ref_src=twsrc%5Etfw">#sunset</a> <a href="http://t.co/YuKy2rcjyU">pic.twitter.com/YuKy2rcjyU</a></p>&mdash; US Department of the Interior (@Interior) <a href="https://twitter.com/Interior/status/463440424141459456?ref_src=twsrc%5Etfw">May 5, 2014</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        
+    </div>
+    <!--widgets ends-->
+</body>
+</html>
